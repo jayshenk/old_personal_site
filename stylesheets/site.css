@@ -10,7 +10,7 @@ body {
 }
 
 main {
-  padding: 32vh 0 0 0;
+  padding-top: 32vh 0 0 0;
 }
 
 img {
@@ -42,7 +42,7 @@ a {
   }
   main {
     width: 100%;
-    padding: 16vh 40px;
+    padding-top: 16vh;
     box-sizing: border-box;
   }
 }
@@ -53,7 +53,7 @@ a {
   }
   main {
     width: 100%;
-    padding: 28vh 40px;
+    padding-top: 28vh;
     box-sizing: border-box;
   }
 }
