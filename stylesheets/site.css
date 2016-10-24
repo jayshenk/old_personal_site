@@ -36,11 +36,18 @@ a {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 780px) and (orientation: landscape) {
   main {
     width: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 16vh 40px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 500px) and (orientation: portrait) {
+  main {
+    width: 100%;
+    padding: 28vh 40px;
     box-sizing: border-box;
   }
 }
