@@ -1,0 +1,47 @@
+@import url("whitespace-reset.css");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  font: normal 18px 'Open Sans', sans-serif;
+  color: #152A40;
+  background: radial-gradient(circle, #fff 33%, #336699);
+}
+
+main {
+  padding: 36vh 0 0 0;
+}
+
+img {
+  width: 120px;
+  border-radius: 100%;
+}
+
+h1 {
+  padding-bottom: 6px;
+  font-weight: normal;
+  font-size: 28px;
+  letter-spacing: -1px;
+}
+
+a {
+  text-decoration: none;
+  /*color: #FF786E;*/
+  color: #407FBF;
+}
+
+@media (max-width: 1000px) {
+  body {
+    background: radial-gradient(circle, #fff 44%, #336699);
+  }
+}
+
+@media (max-width: 500px) {
+  main {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+}
