@@ -37,6 +37,9 @@ a {
 }
 
 @media (max-width: 780px) and (orientation: landscape) {
+  body {
+    background: linear-gradient(to right, #336699, #fff 5%, #fff 95%, #336699);
+  }
   main {
     width: 100%;
     padding: 16vh 40px;
@@ -45,6 +48,9 @@ a {
 }
 
 @media (max-width: 500px) and (orientation: portrait) {
+  body {
+    background: linear-gradient(to bottom, #336699, #fff 20%, #fff 80%, #336699);
+  }
   main {
     width: 100%;
     padding: 28vh 40px;
