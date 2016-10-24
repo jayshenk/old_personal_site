@@ -36,7 +36,7 @@ a {
   }
 }
 
-@media (max-width: 780px) and (orientation: landscape) {
+@media (max-device-width: 780px) and (orientation: landscape) {
   body {
     background: linear-gradient(to right, #336699, #fff 5%, #fff 95%, #336699);
   }
