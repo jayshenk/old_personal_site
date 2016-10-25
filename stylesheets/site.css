@@ -10,7 +10,9 @@ body {
 }
 
 main {
+  max-width: 400px;
   padding-top: 32vh;
+  margin: 0 auto;
 }
 
 img {
@@ -38,7 +40,7 @@ a {
 
 @media (max-device-width: 780px) and (orientation: landscape) {
   body {
-    background: linear-gradient(to right, #336699, #fff 5%, #fff 95%, #336699);
+    background: linear-gradient(to right, #336699, #fff 15%, #fff 85%, #336699);
   }
   main {
     padding-top: 16vh;
