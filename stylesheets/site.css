@@ -27,6 +27,10 @@ h1 {
   letter-spacing: -1px;
 }
 
+p {
+  padding-bottom: 38px;
+}
+
 a {
   text-decoration: none;
   color: #407fbf;
