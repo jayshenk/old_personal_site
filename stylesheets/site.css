@@ -1,19 +1,19 @@
 @import url("whitespace-reset.css");
 
+html { height: 100%; }
+
 body {
-  width: 100vw;
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   text-align: center;
   font: normal 18px 'Open Sans', sans-serif;
   color: #152a40;
   background: radial-gradient(circle, #fff 33%, #336699);
 }
 
-main {
-  max-width: 400px;
-  padding-top: 32vh;
-  margin: 0 auto;
-}
+main { max-width: 400px; }
 
 img {
   width: 120px;
@@ -27,9 +27,7 @@ h1 {
   letter-spacing: -1px;
 }
 
-p {
-  padding-bottom: 38px;
-}
+p { padding-bottom: 38px; }
 
 a {
   text-decoration: none;
@@ -37,25 +35,17 @@ a {
 }
 
 @media (max-width: 1000px) {
-  body {
-    background: radial-gradient(circle, #fff 44%, #336699);
-  }
+  body { background: radial-gradient(circle, #fff 44%, #336699); }
 }
 
 @media (max-device-width: 780px) and (orientation: landscape) {
   body {
     background: linear-gradient(to right, #336699, #fff 15%, #fff 85%, #336699);
   }
-  main {
-    padding-top: 16vh;
-  }
 }
 
 @media (max-width: 500px) and (orientation: portrait) {
   body {
     background: linear-gradient(to bottom, #336699, #fff 20%, #fff 80%, #336699);
-  }
-  main {
-    padding-top: 28vh;
   }
 }
