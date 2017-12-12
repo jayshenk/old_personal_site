@@ -21,13 +21,13 @@ img {
 }
 
 h1 {
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   font-weight: normal;
   font-size: 28px;
   letter-spacing: -1px;
 }
 
-p { padding-bottom: 38px; }
+p { padding-bottom: 28px; }
 
 a {
   text-decoration: none;
